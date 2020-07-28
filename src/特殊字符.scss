@@ -1,0 +1,6 @@
+//分号后面还多一个字符（不是空格），webpack打包后这个字符会被保留，导致此css无效
+$blue: #1875e7;　
+
+h2 {
+    background-color: $blue;
+}

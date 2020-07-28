@@ -1,0 +1,25 @@
+//整体导入bootstrap样式
+//@import "~bootstrap/scss/bootstrap";
+
+//导入需要的bootstrap样式
+// Core variables and mixins
+@import "~bootstrap/scss/functions"; // Required
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+
+@import "~bootstrap/scss/buttons";
+//没有collapse.scss
+//@import "~bootstrap/scss/collapse";
+//通过chrome开发者工具发现collapse需要transitions
+@import "~bootstrap/scss/transitions";
+//出错 改在index.js中引入
+//@import '~open-iconic/font/css/open-iconic-bootstrap.scss';
+
+//测试sass
+@import 'colors';
+
+h2 {
+  background-color: $red;
+}
